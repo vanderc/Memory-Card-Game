@@ -15,8 +15,6 @@ This is a memory card game. I created this to show my knowledge of JavaScript.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [mdn web docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 - [W3 Schools](https://www.w3schools.com/whatis/whatis_js.asp)
 
