@@ -1,0 +1,67 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+/* Styles for the main heading */
+h1 {
+    margin-bottom: 20px;
+}
+/* Styles for the game board container */
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+/* Styles for the individual cards */
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+}
+/* Styles for flipped cards*/
+.card.flipped {
+    transform: rotateY(180deg);
+}
+/* Styles for card faces */
+.card .card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+/* Style for back face of cards */
+.card .card-face.back {
+    background-color: #4CAF50;
+    color: white;
+    transform: rotateY(180deg);
+}
+/* Highlights which card is being selected */
+.card:hover {
+    background-color: aqua;
+}
+/* Style for buttons */
+button {
+    font-weight: 400;
+    font-size: larger;
+    width: 50%;
+    margin-top: 1rem;
+    padding: .5rem;
+}
+/* Hover effect for buttons */
+button:hover {
+    background-color: blue;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Heading for the website -->
+    <h1>Memory Card Game</h1>
+    <!-- Makes the container for the game cards-->
+    <div class="game-board" id="gameBoard"></div>
+    <!-- Links to the JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- Creates a button to restart the game -->
+    <button onclick="refreshPage()">Restart</button>
+
+    <script>
+        function refreshPage() {
+        location.reload();
+        }
+    </script>
+</body>
+</html>
